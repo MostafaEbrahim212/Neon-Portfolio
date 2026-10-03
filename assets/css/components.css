@@ -471,3 +471,9 @@ html[dir="rtl"] .repo-footer .project-tags {
 }
 
 
+
+.repo-links a, .repo-links { position: relative; z-index: 50; }
+
+
+.repo-header { transform: translateZ(30px); }
+
