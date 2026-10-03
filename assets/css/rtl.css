@@ -1,0 +1,48 @@
+/* =========================================
+   RTL GENERAL FIXES
+   ========================================= */
+/* =========================================
+   RTL GENERAL FIXES
+   ========================================= */
+html[dir="rtl"] * {
+    letter-spacing: 0 !important;
+}
+
+html[dir="rtl"] .about-text {
+    text-align: right;
+    order: -1;
+}
+
+html[dir="rtl"] .project-info {
+    text-align: center;
+    direction: rtl;
+}
+
+html[dir="rtl"] .contact-text {
+    text-align: right;
+}
+
+html[dir="rtl"] .category-header h3 {
+    text-align: right;
+}
+
+html[dir="rtl"] .skill-card {
+    text-align: right;
+}
+
+html[dir="rtl"] .marquee-section {
+    direction: ltr;
+}
+
+html[dir="rtl"] .marquee-content {
+    animation-direction: reverse;
+}
+
+html[dir="rtl"] .projects-container {
+    direction: ltr;
+}
+
+html[dir="rtl"] .terminal-wrapper {
+    right: auto;
+    left: 5%;
+}

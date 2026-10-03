@@ -1,0 +1,23 @@
+/* =========================================
+   VARIABLES & RESET
+   ========================================= */
+:root {
+    --bg-color: #08080a;
+    --surface-color: #121217;
+    --surface-light: #1c1c24;
+    --text-primary: #f2f2f5;
+    --text-secondary: #a0a0b0;
+    --accent-color: #00ff88;
+    --accent-glow: rgba(0, 255, 136, 0.4);
+    --accent-secondary: #7000ff;
+
+    --font-main: 'Outfit', sans-serif;
+
+    --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+
+/* =========================================
+   VARIABLES & RESET
+   ========================================= */
+

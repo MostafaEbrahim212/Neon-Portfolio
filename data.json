@@ -1,0 +1,297 @@
+{
+    "en": {
+        "nav_home": "Home",
+        "nav_about": "About",
+        "nav_skills": "Skills",
+        "nav_projects": "Projects",
+        "nav_experience": "Experience",
+        "nav_contact": "Contact",
+        "hero_greeting": "Hi there 👋, I am",
+        "hero_name": "Mostafa",
+        "hero_lastname": "Ebrahim",
+        "hero_subtitle_1": "Backend logic.",
+        "hero_subtitle_2": "Frontend magic.",
+        "hero_subtitle_3": "Scalable APIs.",
+        "hero_subtitle_4": "Web Applications.",
+        "hero_specialize": "I specialize in ",
+        "hero_desc": "A passionate developer based in Mansoura, Egypt. Transforming ideas into robust web applications with Laravel and modern web technologies.",
+        "hero_btn": "Get In Touch",
+        "hero_scroll": "Scroll Down",
+        "about_title": "About Me",
+        "about_age_label": "25 Years Old",
+        "about_exp_label": "1+ Year Exp.",
+        "about_lead": "Graduated from the Faculty of Computers and Information, Mansoura University, majoring in Computer Science (CS).",
+        "about_p": "I am a fast learner, always eager to master new technologies. Beyond the code, I am passionate about contributing to open-source projects and helping the developer community. My goal is to build web applications that make a real difference.",
+        "about_location_lbl": "Location",
+        "about_location_val": "Mansoura, Egypt",
+        "about_email_lbl": "Email",
+        "about_email_val": "sasa9121963@gmail.com",
+        "about_freelance_lbl": "Freelance",
+        "about_freelance_val": "Available",
+        "about_download_btn": "Download CV",
+        "skills_title": "My Arsenal",
+        "skills_backend": "Backend Architecture",
+        "skills_frontend": "Frontend Engineering",
+        "skills_tools": "Tools & Workflow",
+        "skill_laravel_title": "Laravel / PHP",
+        "skill_laravel_desc": "Blade, RESTful APIs, clean & maintainable code.",
+        "skill_mysql_title": "MySQL",
+        "skill_mysql_desc": "Relational databases, complex queries, relationships.",
+        "skill_security_title": "Security",
+        "skill_security_desc": "JWT, sessions, authentication & authorization.",
+        "skill_js_title": "JavaScript",
+        "skill_js_desc": "AJAX, asynchronous requests, dynamic UI.",
+        "skill_tailwind_title": "Tailwind & CSS",
+        "skill_tailwind_desc": "Responsive design, modern aesthetics, Bootstrap.",
+        "skill_html_title": "HTML5",
+        "skill_html_desc": "Semantic markup, SEO optimization.",
+        "projects_title": "Featured Works",
+        "proj1_title": "E-Commerce Platform",
+        "proj1_desc": "Laravel, MySQL, Vue.js",
+        "proj2_title": "Real-Time Dashboard",
+        "proj2_desc": "PHP, WebSockets, Tailwind",
+        "proj3_title": "RESTful API Microservices",
+        "proj3_desc": "Laravel, JWT, Postman",
+        "exp_title": "My Journey",
+        "exp_1_date": "Apr 2025 - Apr 2027",
+        "exp_1_title": "Reserve Officer (Military Service)",
+        "exp_1_tech": "Egyptian Armed Forces",
+        "exp_1_desc": "Currently serving as a Reserve Officer. Developing leadership, discipline, and strategic problem-solving skills under high-pressure environments.",
+        "exp_2_date": "Aug 2024 - Apr 2025",
+        "exp_2_title": "Full Stack Developer",
+        "exp_2_tech": "Laravel • HTML • CSS • JS",
+        "exp_2_desc": "Worked immediately after graduation, building robust server-side applications and responsive user interfaces. Left the role to fulfill military service duties.",
+        "exp_3_date": "Ongoing",
+        "exp_3_title": "Lifelong Learner",
+        "exp_3_tech": "Open Source & New Tech",
+        "exp_3_desc": "Continuously learning new technologies and keeping up with industry trends, always striving to improve efficiency and broaden my skill set.",
+        "contact_title": "Let's Talk.",
+        "contact_desc": "Have a project in mind or just want to say hi? I am always open to discussing web development, new opportunities, and exciting projects.",
+        "contact_name_lbl": "Your Name",
+        "contact_email_lbl": "Your Email",
+        "contact_msg_lbl": "Your Message",
+        "contact_send_btn": "Send Message",
+        "contact_sending": "Sending...",
+        "contact_sent": "Message Sent!",
+        "contact_error": "Error Sending",
+        "footer_text": "Built with passion by Mostafa Ebrahim.",
+        "project_live": "Live Demo",
+        "project_code": "Source Code",
+        "marquee_items": [
+            "FULL STACK DEVELOPER",
+            "LARAVEL EXPERT",
+            "CREATIVE CODING",
+            "MODERN WEB APPS",
+            "API ARCHITECTURE",
+            "CLEAN CODE"
+        ]
+    },
+    "ar": {
+        "nav_home": "الرئيسية",
+        "nav_about": "من أنا",
+        "nav_skills": "المهارات",
+        "nav_projects": "أعمالي",
+        "nav_experience": "رحلتي",
+        "nav_contact": "تواصل معي",
+        "hero_greeting": "مرحباً بك 👋، أنا",
+        "hero_name": "مصطفى",
+        "hero_lastname": "إبراهيم",
+        "hero_subtitle_1": "مطور ويب متكامل.",
+        "hero_subtitle_2": "سحر الواجهة الأمامية.",
+        "hero_subtitle_3": "واجهات برمجة قابلة للتطوير.",
+        "hero_subtitle_4": "تطبيقات الويب.",
+        "hero_specialize": "متخصص في ",
+        "hero_desc": "مطور شغوف مقيم في المنصورة، مصر. أحول الأفكار إلى تطبيقات ويب قوية باستخدام لارافيل وأحدث تقنيات الويب.",
+        "hero_btn": "تواصل معي",
+        "hero_scroll": "مرر لأسفل",
+        "about_title": "من أنا",
+        "about_age_label": "25 عاماً",
+        "about_exp_label": "+1 سنة خبرة",
+        "about_lead": "خريج كلية الحاسبات والمعلومات، جامعة المنصورة، تخصص علوم الحاسب (CS).",
+        "about_p": "أنا متعلم سريع، ودائماً حريص على إتقان تقنيات جديدة. بعيداً عن البرمجة، أنا شغوف بالمساهمة في المشاريع مفتوحة المصدر ومساعدة مجتمع المطورين. هدفي هو بناء تطبيقات ويب تحدث فرقاً حقيقياً.",
+        "about_location_lbl": "الموقع",
+        "about_location_val": "المنصورة، مصر",
+        "about_email_lbl": "البريد",
+        "about_email_val": "sasa9121963@gmail.com",
+        "about_freelance_lbl": "العمل الحر",
+        "about_freelance_val": "متاح",
+        "about_download_btn": "تحميل السيرة الذاتية",
+        "skills_title": "ترسانتي",
+        "skills_backend": "هندسة الواجهة الخلفية",
+        "skills_frontend": "هندسة الواجهة الأمامية",
+        "skills_tools": "أدوات العمل",
+        "skill_laravel_title": "Laravel / PHP",
+        "skill_laravel_desc": "Blade، واجهات RESTful، كود نظيف وقابل للصيانة.",
+        "skill_mysql_title": "MySQL",
+        "skill_mysql_desc": "قواعد بيانات علائقية، استعلامات معقدة، وعلاقات.",
+        "skill_security_title": "الأمان",
+        "skill_security_desc": "JWT، الجلسات، التوثيق والتفويض.",
+        "skill_js_title": "JavaScript",
+        "skill_js_desc": "AJAX، طلبات غير متزامنة، واجهة مستخدم ديناميكية.",
+        "skill_tailwind_title": "Tailwind & CSS",
+        "skill_tailwind_desc": "تصميم متجاوب، لمسات حديثة، Bootstrap.",
+        "skill_html_title": "HTML5",
+        "skill_html_desc": "هيكلة دلالية، وتحسين محركات البحث.",
+        "projects_title": "أعمالي المميزة",
+        "proj1_title": "منصة تجارة إلكترونية",
+        "proj1_desc": "لارافيل، MySQL، Vue.js",
+        "proj2_title": "لوحة تحكم لحظية",
+        "proj2_desc": "PHP، WebSockets، Tailwind",
+        "proj3_title": "واجهة برمجة تطبيقات مصغرة",
+        "proj3_desc": "لارافيل، JWT، Postman",
+        "exp_title": "رحلتي",
+        "exp_1_date": "أبريل 2025 - أبريل 2027",
+        "exp_1_title": "ضابط احتياط (الخدمة العسكرية)",
+        "exp_1_tech": "القوات المسلحة المصرية",
+        "exp_1_desc": "أخدم حالياً كضابط احتياط. أطور مهارات القيادة والانضباط وحل المشكلات الاستراتيجية في بيئات العمل عالية الضغط.",
+        "exp_2_date": "أغسطس 2024 - أبريل 2025",
+        "exp_2_title": "مطور ويب متكامل",
+        "exp_2_tech": "Laravel • HTML • CSS • JS",
+        "exp_2_desc": "عملت فوراً بعد التخرج في بناء تطبيقات خلفية قوية وواجهات مستخدم متجاوبة. تركت العمل لأداء الخدمة العسكرية.",
+        "exp_3_date": "مستمر",
+        "exp_3_title": "متعلم مدى الحياة",
+        "exp_3_tech": "المصادر المفتوحة والتقنيات الحديثة",
+        "exp_3_desc": "أتعلم تقنيات جديدة باستمرار وأواكب اتجاهات الصناعة، سعياً دائماً لتحسين الكفاءة وتوسيع نطاق مهاراتي.",
+        "contact_title": "تواصل معي.",
+        "contact_desc": "هل لديك مشروع في ذهنك أو تريد فقط إلقاء التحية؟ أنا منفتح دائماً لمناقشة تطوير الويب، الفرص الجديدة، والمشاريع المثيرة.",
+        "contact_name_lbl": "اسمك",
+        "contact_email_lbl": "بريدك الإلكتروني",
+        "contact_msg_lbl": "رسالتك",
+        "contact_send_btn": "إرسال الرسالة",
+        "contact_sending": "جاري الإرسال...",
+        "contact_sent": "تم الإرسال!",
+        "contact_error": "خطأ في الإرسال",
+        "footer_text": "بُني بشغف بواسطة مصطفى إبراهيم.",
+        "project_live": "معاينة حية",
+        "project_code": "الكود المصدري",
+        "marquee_items": [
+            "مطور ويب متكامل",
+            "خبير لارافيل",
+            "كود إبداعي وحلول ذكية",
+            "تطبيقات ويب عصرية",
+            "بنية برمجية متطورة",
+            "كود نظيف وعالي الأداء"
+        ]
+    },
+    "config": {
+        "sections": {
+            "home": true,
+            "about": true,
+            "skills": true,
+            "projects": true,
+            "experience": true,
+            "contact": true
+        },
+        "socials": {
+            "github": "https://github.com/MostafaEbrahim212",
+            "linkedin": "https://www.linkedin.com/in/mostafa-ebrahim-91384326a/",
+            "website": "https://my-portfolio-7bp1.vercel.app"
+        },
+        "personal": {
+            "email": "sasa9121963@gmail.com",
+            "age": "25",
+            "experience_years": "1+"
+        },
+        "projects": [
+            {
+                "id": "proj1",
+                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop",
+                "link": "#",
+                "github": "https://github.com/MostafaEbrahim",
+                "tags": [
+                    "Laravel",
+                    "MySQL",
+                    "Vue.js",
+                    "REST API"
+                ]
+            },
+            {
+                "id": "proj2",
+                "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+                "link": "#",
+                "github": "https://github.com/MostafaEbrahim",
+                "tags": [
+                    "PHP",
+                    "WebSockets",
+                    "Tailwind CSS",
+                    "Chart.js"
+                ]
+            },
+            {
+                "id": "proj3",
+                "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1000&auto=format&fit=crop",
+                "link": "#",
+                "github": "https://github.com/MostafaEbrahim",
+                "tags": [
+                    "Laravel",
+                    "JWT Auth",
+                    "Postman",
+                    "Docker"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "id": "exp_1"
+            },
+            {
+                "id": "exp_2"
+            },
+            {
+                "id": "exp_3"
+            }
+        ],
+        "skills": {
+            "backend": [
+                {
+                    "id": "skill_laravel",
+                    "icon": "bxl-php"
+                },
+                {
+                    "id": "skill_mysql",
+                    "icon": "bx-data"
+                },
+                {
+                    "id": "skill_security",
+                    "icon": "bx-lock-alt"
+                }
+            ],
+            "frontend": [
+                {
+                    "id": "skill_js",
+                    "icon": "bxl-javascript"
+                },
+                {
+                    "id": "skill_tailwind",
+                    "icon": "bxl-tailwind-css"
+                },
+                {
+                    "id": "skill_html",
+                    "icon": "bxl-html5"
+                }
+            ]
+        },
+        "tools": [
+            {
+                "name": "VS Code",
+                "icon": "bxl-visual-studio"
+            },
+            {
+                "name": "Git",
+                "icon": "bxl-git"
+            },
+            {
+                "name": "GitHub",
+                "icon": "bxl-github"
+            },
+            {
+                "name": "Postman",
+                "icon": "bx-send"
+            },
+            {
+                "name": "XAMPP",
+                "icon": "bx-layer"
+            }
+        ]
+    }
+}

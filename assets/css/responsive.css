@@ -1,0 +1,519 @@
+/* =========================================
+   COMPREHENSIVE RESPONSIVE DESIGN (ALL SCREENS)
+   ========================================= */
+/* =========================================
+   COMPREHENSIVE RESPONSIVE DESIGN (ALL SCREENS)
+   ========================================= */
+
+.bottom-nav {
+    display: none;
+}
+
+
+/* Extra Large Screens & 4K Displays (>= 1440px) */
+@media (min-width: 1440px) {
+    .hero-container,
+    .about-content,
+    .skills-container,
+    .timeline,
+    .contact-container,
+    .footer-content {
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Laptops & Tablets Landscape (<= 1024px) */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 16px 5%;
+    }
+
+    .section-padding {
+        padding: 90px 5%;
+    }
+
+    .about-content {
+        gap: 40px;
+    }
+
+    .contact-container {
+        gap: 50px;
+    }
+}
+
+/* Tablets Portrait & Mobile Devices (<= 900px) */
+@media (max-width: 900px) {
+    /* Navbar & Mobile Overlay Menu replaced by Bottom Nav */
+    .nav-links {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: none !important;
+    }
+
+    body {
+        padding-bottom: calc(75px + env(safe-area-inset-bottom));
+    }
+
+    /* App-like Bottom Navigation */
+    .bottom-nav {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(18, 18, 23, 0.85); /* surface color with opacity */
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 5px calc(10px + env(safe-area-inset-bottom)) 5px;
+        box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .bottom-nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: var(--text-secondary);
+        font-size: 11px;
+        font-weight: 600;
+        gap: 5px;
+        flex: 1;
+        transition: var(--transition);
+        padding: 5px;
+        border-radius: 12px;
+        position: relative;
+    }
+
+    .bottom-nav-item i {
+        font-size: 22px;
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .bottom-nav-item.active {
+        color: var(--accent-color);
+    }
+
+    .bottom-nav-item.active i {
+        transform: translateY(-2px) scale(1.15);
+    }
+
+    .bottom-nav-item:active {
+        transform: scale(0.92); /* Native app touch feedback */
+    }
+
+    /* Active indicator dot */
+    .bottom-nav-item::after {
+        content: '';
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%) scale(0);
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: var(--accent-color);
+        transition: transform 0.3s ease;
+    }
+    
+    .bottom-nav-item.active::after {
+        transform: translateX(-50%) scale(1);
+    }
+    
+    .toast-container {
+        bottom: 90px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 90%;
+        max-width: 400px;
+        align-items: center;
+    }
+    .toast {
+        transform: translateY(50px);
+        justify-content: center;
+    }
+    .toast.show {
+        transform: translateY(0);
+    }
+
+    /* About Section */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .about-image {
+        max-width: 440px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Projects Section - Responsive Vertical Stack */
+    .projects {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .projects-container {
+        height: auto !important;
+        overflow: visible !important;
+        display: block !important;
+    }
+
+    .projects-track {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 40px !important;
+    }
+
+    .project-panel {
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+    }
+
+    .project-card {
+        max-width: 620px !important;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .repo-card {
+        padding: 25px 20px;
+        min-height: auto;
+    }
+    
+    .repo-icon {
+        font-size: 38px;
+    }
+    
+    .repo-info h3 {
+        font-size: 22px;
+    }
+
+
+    .project-image {
+        height: clamp(240px, 45vw, 360px);
+    }
+
+    .project-overlay {
+        display: none !important;
+    }
+
+    .project-actions-mobile {
+        display: flex !important;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 18px;
+        flex-wrap: wrap;
+    }
+
+    /* Contact Section */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .form-bg {
+        display: none;
+    }
+
+    .huge-text {
+        font-size: clamp(2.5rem, 6vw, 3.8rem);
+    }
+
+    /* Timeline Section */
+    .timeline-item {
+        padding-left: 70px;
+    }
+
+    [dir="rtl"] .timeline-item {
+        padding-right: 70px;
+        padding-left: 0;
+    }
+
+    .timeline-content {
+        padding: 28px 22px;
+    }
+}
+
+/* Mobile Screens (<= 600px) */
+@media (max-width: 600px) {
+    .section-padding {
+        padding: 65px 5%;
+    }
+
+    .section-header {
+        margin-bottom: 35px;
+    }
+
+    .section-title {
+        font-size: clamp(1.8rem, 7vw, 2.4rem);
+    }
+
+    .title-line-anim {
+        width: 60px;
+        height: 3px;
+        margin-top: 8px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 120px 5% 60px;
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+
+    .greeting {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .hero-title {
+        font-size: clamp(2.4rem, 9vw, 3.4rem);
+        margin-bottom: 15px;
+        column-gap: 12px;
+    }
+
+    .hero-subtitle {
+        font-size: clamp(1.15rem, 4.5vw, 1.5rem);
+        margin-bottom: 20px;
+    }
+
+    .hero-desc {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+
+    .hero-cta {
+        width: 100%;
+    }
+
+    .primary-btn {
+        width: 100%;
+        max-width: 280px;
+        padding: 14px 24px;
+        font-size: 15px;
+    }
+
+    .scroll-indicator {
+        display: none !important;
+    }
+
+    /* About */
+    .about-stats {
+        gap: 15px;
+    }
+
+    .stat-item {
+        flex: 1;
+        min-width: 130px;
+        padding: 15px;
+    }
+
+    .stat-number {
+        font-size: 32px;
+    }
+
+    .about-info-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    /* Marquee */
+    .marquee-section {
+        padding: 24px 0;
+        margin: 30px 0;
+    }
+
+    .marquee-content span {
+        font-size: 1.5rem;
+        padding: 0 15px;
+    }
+
+    .marquee-content span.star {
+        font-size: 1.2rem;
+    }
+
+    /* Skills */
+    .skill-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .skill-card {
+        padding: 25px 20px;
+    }
+
+    .skill-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .tool-tag {
+        padding: 9px 16px;
+        font-size: 14px;
+    }
+
+    /* Projects */
+    .project-card {
+        padding: 16px;
+        border-radius: 18px;
+    }
+
+    .project-image {
+        height: 220px;
+        border-radius: 12px;
+    }
+
+    .project-info h3 {
+        font-size: 20px;
+    }
+
+    .project-info p {
+        font-size: 13.5px;
+        margin-bottom: 12px;
+    }
+
+    .project-tag {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+
+    .project-btn {
+        padding: 9px 18px;
+        font-size: 13px;
+        flex: 1;
+        justify-content: center;
+    }
+
+    /* Timeline */
+    .timeline-line {
+        left: 18px;
+    }
+
+    [dir="rtl"] .timeline-line {
+        right: 18px;
+        left: auto;
+    }
+
+    .timeline-dot {
+        left: 9px;
+        width: 18px;
+        height: 18px;
+    }
+
+    [dir="rtl"] .timeline-dot {
+        right: 9px;
+        left: auto;
+    }
+
+    .timeline-item {
+        padding-left: 50px;
+        margin-bottom: 35px;
+    }
+
+    [dir="rtl"] .timeline-item {
+        padding-right: 50px;
+        padding-left: 0;
+    }
+
+    .timeline-content {
+        padding: 20px 16px;
+        border-radius: 16px;
+    }
+
+    .timeline-role {
+        font-size: 18px;
+    }
+
+    .timeline-tech {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .timeline-content p {
+        font-size: 13.5px;
+        line-height: 1.6;
+    }
+
+    /* Contact */
+    .contact-form {
+        padding: 24px 18px;
+        border-radius: 18px;
+    }
+
+    .submit-btn {
+        padding: 14px 24px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+/* Very Small Mobile Screens (<= 380px) */
+@media (max-width: 380px) {
+    .navbar {
+        padding: 14px 4%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .lang-btn {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: 2.1rem;
+    }
+
+    .timeline-item {
+        padding-left: 42px;
+    }
+
+    [dir="rtl"] .timeline-item {
+        padding-right: 42px;
+    }
+
+    .project-btn {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* Touch Device Optimization: Disable Custom Cursor */
+@media (hover: none) and (pointer: coarse), (max-width: 992px) {
+    .cursor,
+    .cursor-follower,
+    .cursor-glow {
+        display: none !important;
+    }
+
+    body {
+        cursor: auto !important;
+    }
+
+    a, button, .tool-tag, .social-icon, .project-btn, .project-tag, input, textarea {
+        cursor: pointer !important;
+    }
+}
+
+
